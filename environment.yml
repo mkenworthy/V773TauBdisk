@@ -2,13 +2,15 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - numpy=1.19.2
-  - pip=21.0.1
-  - python=3.9
+  - numpy
+  - pip
+  - python
+  - cython
   - astropy
   - scipy
   - emcee
   - corner
   - h5py
   - pip:
-      - matplotlib==3.4.3
+      - matplotlib
+      - orbitize
