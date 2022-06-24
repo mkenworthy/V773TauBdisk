@@ -91,6 +91,7 @@ burn = 1000
 
 # samples for deriving fitted parameters and uncertainties
 
+#samples = chain[burn:,].reshape((-1, ndim))
 samples = chain[burn:,].reshape((-1, ndim))
 
 fig, ax = plt.subplots(ndim,ndim, figsize=(8,8))
@@ -129,4 +130,3 @@ ax2.scatter(x_A, y_A,color='red')
 ax3.scatter(C_x+15.9, C_y+22.05,color='red',alpha=0.5)
 
 fig.savefig(paths.figures / "astrometry_ABC.pdf", bbox_inches='tight')
-

@@ -3,11 +3,6 @@
 \documentclass{aa}  
 \bibliographystyle{aa}
 
-
-\usepackage[nolist]{acronym}
-
-\acrodef{vlba}[VLBA]{Very Long Baseline Array}
-
 \usepackage{graphicx}
 \usepackage{txfonts}
 \usepackage{natbib}
@@ -37,7 +32,7 @@
 %
 \begin{document} 
 
-\title{The eclipse of the V773 Tau B circumbinary disk}
+\title{The eclipse of the V773 Tau B circumbinary disk\thanks{The manuscript and processing scripts are available in a GitHub repository at \url{https://github.com/mkenworthy/V773TauBdisk}. Processed photometric data and light curves are available in electronic form at the CDS via anonymous ftp to \url{cdsarc.u-strasbg.fr} (130.79.128.5) or via \url{http://cdsweb.u-strasbg.fr/cgi-bin/qcat?J/A+A/}}}
 
    \author{M.A. Kenworthy\inst{1}
           \and
@@ -240,7 +235,7 @@ We attribute this discrepancy to the multiple source nature of the system which 
 
 The bound components of V773 Tau were initially identified as A, B and C (see Figure~\ref{fig:cartoon}).
 %
-The A component was resolved by \ac{vlba} observations to be a binary system with $P_{AaAb}=51.1003\pm 0.0022$ days and an eccentricity of $e=0.2710\pm 0.0072$ \citep{Torres12}.
+The A component was resolved by Very Long Baseline Array observations to be a binary system with $P_{AaAb}=51.1003\pm 0.0022$ days and an eccentricity of $e=0.2710\pm 0.0072$ \citep{Torres12}.
 %
 The A binary becomes more luminous in radio waves during the periastron passage of the A stars, which is thought to be from the interacting magnetic fields of the two stars \citep{Torres12}.
 
@@ -557,7 +552,7 @@ The orbital elements of the AB system are shown in Table~\ref{tab:orbs}.
 
 With the updated orbital bundles generated for the AB system, we then took the measured AC astrometry as reported in Table 1 of \citet{Duchene03} and Table 1 of \citet{Boden12} and combined it with the 2021 astrometry.
 %
-We then corrected the AC relative astrometry using the measured masses of A and B and calculated the distance from C to the the barycenter of AB (called C-AB).
+We then corrected the AC relative astrometry using the measured masses of A and B and calculated the distance from C to the the barycentre of AB (called C-AB).
 %
 Using the C-AB astrometry, we carried out an {\tt orbitize!} fit with parameters identical to that of the AB system.
 %
@@ -832,7 +827,7 @@ Finally, the inclination of the disk with respect to the AB orbital plane can ta
 
 \section{A tilted polar circumbinary disk}\label{sec:theory}
 
-In this Section we consider the dynamics of a circumbinary disk in this quadrupole star system. 
+In this Section we consider the dynamics of a circumbinary disk in this quadruple star system. 
 %
 In order for the stellar system to be stable, each binary must be inclined by less than about $40^\circ$ to the AB binary orbital plane otherwise, the stars will undergo Kozai-Lidov (KL) oscillations of eccentricity and inclination \citep{vonZeipel1910,Kozai1962,Lidov1962}.
 %

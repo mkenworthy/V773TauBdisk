@@ -1,5 +1,4 @@
 # adapted from analyse_and_plot_AB_orbit.ipynb
-
 import paths
 import numpy as np
 import emcee
@@ -9,7 +8,7 @@ import orbitize
 import matplotlib.pyplot as plt
 
 import warnings
-#warnings.filterwarnings('ignore')
+warnings.filterwarnings('ignore')
 from orbitize import driver
 plt.rcParams.update({'font.size': 16})
 
@@ -20,7 +19,8 @@ myResults_AB.load_results(paths.data / 'v773_tau_AB.hdf5')
 fig, ax = plt.subplots(1,1,figsize=(8,4))
 orbit_figure = myResults_AB.plot_orbits(
     start_mjd=53440, # minimum MJD for colorbar (choose first data epoch)
-    sep_pa_end_year = 2040
+    sep_pa_end_year = 2040,
+    plot_astrometry=True
 )
 
 plt.savefig(paths.figures / 'v773_tau_b_orbits-long_burn.pdf')
