@@ -216,7 +216,8 @@ We summarise our results and discuss future observations in Section~\ref{sec:con
 \begin{figure*}
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{figures/v773tau_fig1.pdf}
+%    \includegraphics[width=\textwidth]{figures/v773tau_fig1.pdf}
+    \includegraphics[width=\textwidth]{figures/fig2_full_lightcurve.pdf}
     \caption{Optical photometry of the V773 Tau system.
     %
     The four different photometric surveys are represented by different colours, and each photometric series has been normalised using flux outside the main eclipse.
@@ -224,7 +225,8 @@ We summarise our results and discuss future observations in Section~\ref{sec:con
     The inset panel shows the eclipse light curve in greater detail.
     %
     The PTF and KELT curves show different depths of the eclipse, indicating the presence of sub-micron dust that causes different amounts of optical extinction in the different pass bands of the two surveys.}
-\label{fig:lc}
+  \label{fig:lc}
+  \script{fig2_complete_lightcurve.py}
 \end{center}
 \end{figure*}
 
@@ -624,9 +626,11 @@ Since these variations are not pure sinusoids, this modulation appears at double
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\columnwidth]{figures/v773tau_fig_periodogram.pdf}
+ %   \includegraphics[width=\columnwidth]{figures/v773tau_fig_periodogram.pdf}
+    \includegraphics[width=\columnwidth]{figures/fig9_periodograms.pdf}
     \caption{Lomb-Scargle Periodograms for the merged photometry (top) and TESS (bottom), the periods with the highest powers are highlighted.}
     \label{fig:two_periodograms}
+    \script{fig9_periodograms.py}
 \end{figure}
 
 Rotation periods on the order of a few days are consistent with stellar evolution models at the age of the system, around 3 Myr.
@@ -660,13 +664,15 @@ An eccentric polar orbit in the B system would lift the apogee of both stars out
 %
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\columnwidth]{figures/longperiod_periodogram.pdf}
+%    \includegraphics[width=\columnwidth]{figures/longperiod_periodogram.pdf}
+    \includegraphics[width=\columnwidth]{figures/fig10_longperiod_periodogram.pdf}
     \caption{Lomb-Scargle Periodograms for the two bands of ASAS-SN and KELT.
     %
     In grey (green) the periodogram before (after) removing the short-term rotational frequencies.
     %
     A peak at $\sim 68$ days is highlighted for the three datasets.}
-    \label{fig:long_periodogram}
+  \label{fig:long_periodogram}
+  \script{fig10_long_periods.py}
 \end{figure}
 
 \section{Disk model for the eclipse\label{sec:model}}
