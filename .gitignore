@@ -10,6 +10,7 @@ arxiv.tar.gz
 # Figure output
 src/tex/figures/*
 
+*DS_Store
 # Miscellaneous
 __pycache__
 *~
