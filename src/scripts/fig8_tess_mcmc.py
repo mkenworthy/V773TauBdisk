@@ -2,6 +2,7 @@
 # picos@mail.strw.leidenuniv.nl
 # Last update June 2022
 
+
 '''
 --- Script to generate figure 8 of the paper ---
 Load TESS data, computed MCMC fit and Lomb-Scargle variability model
