@@ -23,10 +23,8 @@
 \newcommand{\logg}{\ensuremath{\log g}}
 \newcommand{\Msun}{$M_{\odot}$}
 \newcommand{\logl}{log($L/L_{\odot}$)}
-\def\kms{\ifmmode{\rm km\th s^{-1}}\else km\th s$^{-1}$\fi}
 \def\th{\thinspace}
-
-\newcommand\todo[1]{\colorbox{yellow}{\textcolor{red}{#1}}}
+\def\kms{\ifmmode{\rm km\th s^{-1}}\else km\th s$^{-1}$\fi}
 
 \makeatother
 %
@@ -612,17 +610,17 @@ Since these variations are not pure sinusoids, this modulation appears at double
 \begin{figure}
 \begin{center}
     \centering
-    \includegraphics[width=\columnwidth]{figures/lsc_mcmc_tess.pdf}
+    \includegraphics[width=\columnwidth]{figures/fig8_tess_stellar_var.pdf}
     \caption{V773 Tau light curve as observed with TESS shown in the upper panel with brown dots.
     %
     The Stellar Variability models computed with Lomb-Scargle (blue) and MCMC (green) are overlapped and the residuals are indicated as a color scale.}
-\label{fig:tess_variability}
+  \label{fig:tess_variability}
+  \script{fig8_tess_mcmc.py}
 \end{center}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
- %   \includegraphics[width=\columnwidth]{figures/v773tau_fig_periodogram.pdf}
     \includegraphics[width=\columnwidth]{figures/fig9_periodograms.pdf}
     \caption{Lomb-Scargle Periodograms for the merged photometry (top) and TESS (bottom), the periods with the highest powers are highlighted.}
     \label{fig:two_periodograms}
