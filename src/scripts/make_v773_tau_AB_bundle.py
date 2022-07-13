@@ -1,7 +1,6 @@
 import paths
 import numpy as np
 import matplotlib.pyplot as plt
-#from rotscatx import *
 from astropy.io import fits
 import corner
 import emcee
@@ -43,12 +42,12 @@ myDriver = driver.Driver(
 total_orbits = 1000000 # number of steps x number of walkers (at lowest temperature)
 burn_steps = 2000 # steps to burn in per walker
 thin = 4 # only save every 2nd step
-total_orbits = 1000 # number of steps x number of walkers (at lowest temperature)
-burn_steps = 20 # steps to burn in per walker
+#total_orbits = 1000 # number of steps x number of walkers (at lowest temperature)
+#burn_steps = 20 # steps to burn in per walker
 
 orbits = myDriver.sampler.run_sampler(total_orbits, burn_steps=burn_steps, thin=thin)
 
 import orbitize.results
 
 myResults = myDriver.sampler.results
-myResults.save_results('v773_tau_AB.hdf5')
+myResults.save_results(paths.data / 'v773_tau_AB.hdf5')

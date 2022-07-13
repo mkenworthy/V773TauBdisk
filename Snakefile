@@ -11,5 +11,7 @@ rule ABorbitbundle:
         "src/data/v773_tau_AB.hdf5"
     cache:
         True
-    shell:
-        "jupyter nbconvert --to notebook --execute src/scripts/make_v773_tau_AB_bundle_notebook.ipynb"
+    script:
+        "src/scripts/make_v773_tau_AB_bundle.py"
+#    shell:
+#        "jupyter nbconvert --to notebook --execute #src/scripts/make_v773_tau_AB_bundle_notebook.ipynb"
