@@ -22,3 +22,30 @@ dependencies:
     - src/data/v773_tau_AB.hdf5
   src/scripts/analyze_and_plot_C_orbit_bundle.py:
     - src/data/v773_tau_C_AB_bary_preselected_orbparams.hdf5
+  src/scripts/fig10_long_periods.py:
+    - src/data/texstyle
+    - src/data/asassn_skypatrol.csv
+  src/scripts/fig2_complete_lightcurve.py:
+    - src/data/texstyle
+    - src/data/v773tau_complete_lightcurve.csv
+  src/scripts/fig8_tess_mcmc.py:
+    - src/data/texstyle
+    - src/data/v773tau_eleanor.csv
+    - src/data/TESS_MCMC-samples.npy
+    - src/data/TESS_MCMC-best_fit_model.npy
+    - src/data/TESS_MCMC-best_parameters.npy
+    - src/data/tess_svmodel.csv
+  src/scripts/fig9_periodograms.py:
+    - src/data/texstyle
+    - src/data/v773tau_eleanor.csv
+    - src/data/v773tau_complete_lightcurve.csv
+  src/scripts/make_astrom_ABC_chain.py:
+    - src/data/V773_SPHERE_median.fits
+    - src/data/astrom_ABC_chain.h5
+  src/scripts/make_astrometry_ABC_plot.py:
+    - src/data/astrom_ABC_chain.h5
+    - src/data/V773_SPHERE_median.fits
+  src/scripts/make_fig3_v773tau.py:
+    - src/data/V773_SPHERE_median.fits
+  src/scripts/make_v773_tau_AB_bundle.py:
+    - src/data/apj416631t1_ascii_mod_2xerr.txt
