@@ -1,6 +1,6 @@
 version: 0.3.0.dev9
 datasets:
-  10.5281/zenodo.6824751:
+  10.5281/zenodo.6829215:
     destination: src/data
     contents:
       TESS_MCMC-best_fit_model.npy:
