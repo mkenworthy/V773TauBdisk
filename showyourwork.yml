@@ -4,7 +4,7 @@ datasets:
     destination: src/data
     contents:
       TESS_MCMC-best_fit_model.npy:
-      MC-best_parameters.npy:
+      TESS_MCMC-best_parameters.npy:
       TESS_MCMC-samples.npy:
       V773_SPHERE_median.fits:
       asassn_skypatrol.csv:
