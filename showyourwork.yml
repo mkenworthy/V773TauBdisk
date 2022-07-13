@@ -15,6 +15,7 @@ datasets:
       v773_tau_C_AB_bary_preselected_orbparams.hdf5:
       v773tau_complete_lightcurve.csv:
       v773tau_eleanor.csv:
+      apj416631t1_ascii_mod_2xerr.txt:
 dependencies:
   src/scripts/make_astrometry_ABC_plot.py:
     - src/data/astrom_ABC_chain.h5
