@@ -2,6 +2,19 @@ version: 0.3.0.dev9
 datasets:
   10.5281/zenodo.6824751:
     destination: src/data
+    contents:
+      TESS_MCMC-best_fit_model.npy:
+    MC-best_parameters.npy:
+    TESS_MCMC-samples.npy:
+    V773_SPHERE_median.fits:
+    asassn_skypatrol.csv:
+    astrom_ABC_chain.h5:
+    tess_svmodel.csv:
+    texstyle:
+    v773_tau_AB.hdf5:
+    v773_tau_C_AB_bary_preselected_orbparams.hdf5:
+    v773tau_complete_lightcurve.csv:
+    v773tau_eleanor.csv:
 dependencies:
   src/scripts/make_astrometry_ABC_plot.py:
     - src/data/astrom_ABC_chain.h5
