@@ -18,6 +18,7 @@ datasets:
 dependencies:
   src/scripts/make_astrometry_ABC_plot.py:
     - src/data/astrom_ABC_chain.h5
-dependencies:
   src/scripts/analyze_and_plot_AB_orbit_bundle.py:
     - src/data/v773_tau_AB.hdf5
+  src/scripts/analyze_and_plot_C_orbit_bundle.py:
+    - src/data/v773_tau_C_AB_bary_preselected_orbparams.hdf5
