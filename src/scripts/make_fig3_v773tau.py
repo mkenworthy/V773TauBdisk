@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
 
-from matplotlib import rc
-rc('text', usetex=True)
+#from matplotlib import rc
+#rc('text', usetex=True)
 
 def V773Tau_nocoro(pic_7):
 
