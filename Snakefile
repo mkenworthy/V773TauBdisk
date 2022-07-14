@@ -1,10 +1,10 @@
-rule ABCastrom:
-    output:
-        "src/data/astrom_ABC_chain.h5"
-    cache:
-        True
-    script:
-        "src/scripts/make_astrom_ABC_chain.py"
+#rule ABCastrom:
+#    output:
+#        "src/data/astrom_ABC_chain.h5"
+#    cache:
+#        True
+#    script:
+#        "src/scripts/make_astrom_ABC_chain.py"
 
 #rule ABorbitbundle:
 #    output:
