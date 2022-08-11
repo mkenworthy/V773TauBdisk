@@ -1,0 +1,50 @@
+Reference             V773 Tau V circumbinary disc            (Kenworthy+, 2022)
+================================================================================
+Eclipse of the V773 Tau B circumbinary disc
+    M.A. Kenworthy, D. GonzÃ¡lez Picos, E. Elizondo, R.G. Martin, D.M. van Dam,
+    J.E. Rodriguez, G.M. Kennedy, C. Ginski, M. Mugrauer, N. Vogt, C. Adam, 
+    R.J. Oelkers
+   <Astron. Astrophys. (2022)>
+   =20YYjjjjjvvvvLppppA
+================================================================================
+ADC_Keywords: Binaries, eclipsing ; Photometry, CCD ; Stars, double and multiple
+Keywords: 
+
+Abstract: 
+    A deep (âˆ¼ 70%) and extended (âˆ¼150 days) eclipse was seen towards the young
+    multiple stellar system V773 Tau in 2010. We interpret it as being due to
+    the passage of a circumbinary disc around the B components moving in front
+    of the A components. Our aim is to characterise the orientation and structure
+    of the disc, to refine the orbits of the sub-components, and to predict when
+    the next eclipse will occur.
+
+Description:
+    Photometry from several ground based surveys and TESS of the stellar system
+    V773 Tau. All light curves have been normalised to unity outside of the
+    eclipse, as indicated by the Boolean flag in the data table.
+
+Objects:
+    -----------------------------------------
+       RA   (2000)   DE    Designation(s)
+    -----------------------------------------
+    04 14 12.9 +28 12 12.3 V773 Tau
+
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName                        Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe                              80        .  This file
+v773tau.dat                         70     1770Â·Â·Photometry of V773 Tau
+
+Byte-by-byte Description of file: v773tau.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  7   A7      --- survey     The name of the photometry survey
+   9- 26   F18.13  --- time       Epoch (MJD-50000)
+  28- 45   F18.16  --- flux       Normalised flux
+  47- 64   F18.16  --- flux_err   Error on normalised flux
+  66- 70   I5      --- eclipse    Whether the photometry is during the eclipse
+================================================================================
+
